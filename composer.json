@@ -1,0 +1,26 @@
+{
+	"name" : "lyssal/geography",
+	"description" : "A PHP geographic library.",
+	"license" : "proprietary",
+	"keywords" : [
+		"geography",
+		"city",
+		"country",
+		"region",
+		"language"
+	],
+	"type" : "library",
+	"authors" : [{
+			"name" : "Rémi Leclerc",
+			"homepage" : "http://www.lyssal.com/"
+		}
+	],
+	"require" : {
+		"lyssal/lib-php" : "~0.2"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Lyssal\\Geography" : "src"
+		}
+	}
+}
