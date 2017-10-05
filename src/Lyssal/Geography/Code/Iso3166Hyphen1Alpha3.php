@@ -8,17 +8,12 @@
 namespace Lyssal\Geography\Code;
 
 /**
- * Codes ISO 639-1.
+ * Codes ISO 3166-1 alpha 3.
  */
-class Iso_639_1
+class Iso3166Hyphen1Alpha3
 {
     /**
-     * @var string Code for English
+     * @var string Code for France
      */
-    const ENGLISH = 'en';
-
-    /**
-     * @var string Code for French
-     */
-    const FRENCH = 'fr';
+    const FRANCE = 'FRA';
 }
